@@ -1,28 +1,28 @@
-// Import Express framework and create an Express application
+// I imported the Express framework and created an Express application
 const express = require('express');
 const app = express();
 const port = 3000;
-app.set('view engine', 'ejs'); //view engine has been set to EJS
+app.set('view engine', 'ejs'); // I set the view engine to EJS
 
-// Create a basic route for the homepage. This route responds with a simple greeting when accessing the root URL
+// I created a basic route for the homepage I made this route respond with an EJS template when accessing the root URL
 app.get('/', (req, res) => {
-  res.send('Hello Express.');
+  res.render('index', { title: "my first EJS app"});
 });
 
-// Create a route with URL parameters.  This route captures the ID parameter from the URL
+// I created a route with URL parameters. I made this route capture the ID parameter from the URL
 
 app.get('/user/:id', (req, res) => {
   const param = req.params.id;
-  res.send(`The parameter of ID is: ${param}`);
+  res.send(`The parameter of ID is: ${param}`); // made this route display the ID parameter
 });
 // Example: /user/123 will display "The parameter of ID is: 123"
 
 
-// Create a route that handles query parameters. This route reads the 'user' query parameter from the URL
+// I created a route that handles query parameters, I made this route read the 'user' query parameter from the URL
 
 app.get('/admin', (req, res) => {
   const queryparam = req.query.user;
-  res.send(`The query parameter of user is: ${queryparam}`);
+  res.send(`The query parameter of user is: ${queryparam}`); // made this route display the user query parameter
 });
 // Example: /admin?user=john will display "The query parameter of user is: john"
 
