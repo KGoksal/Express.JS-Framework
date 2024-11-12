@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My EJS Template</title>
+</head>
+<body>
+    <h1><%=title%></h1>
+
+    <!-- Add some basic styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .welcome-text {
+            text-align: center;
+            color: #666;
+        }
+    </style>
+
+    <!-- Add a container and some content -->
+    <div class="container">
+        <p class="welcome-text">Welcome to my first Express application! This page is rendered using EJS templating.</p>
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="/user/123" style="color: #3498db; text-decoration: none;">Try User Route</a>
+            <span style="margin: 0 10px;">|</span>
+            <a href="/admin?user=Kadir" style="color: #3498db; text-decoration: none;">Try Admin Route</a>
+        </div>
+    </div>
+</body>
+</html>
