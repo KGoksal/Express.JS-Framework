@@ -2,6 +2,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+app.set('view engine', 'ejs'); //view engine has been set to EJS
 
 // Create a basic route for the homepage. This route responds with a simple greeting when accessing the root URL
 app.get('/', (req, res) => {
