@@ -6,7 +6,7 @@ app.set('view engine', 'ejs'); // I set the view engine to EJS
 
 // I created a basic route for the homepage I made this route respond with an EJS template when accessing the root URL
 app.get('/', (req, res) => {
-  res.render('index', { title: "my first EJS app"});
+  res.render('index', { title: "My EJS App!"});
 });
 
 // I created a route with URL parameters. I made this route capture the ID parameter from the URL
