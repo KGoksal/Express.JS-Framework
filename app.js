@@ -16,10 +16,10 @@ app.get('/user/:id', (req, res) => {
 });
 // Example: /user/123 will display "The parameter of ID is: 123"
 
-// Route for contact page
-app.get('/contact', (req, res) => {
-  res.render('contactme', { title: "Contact Me!"});
-});
+// Route for contact page 
+app.get('/contact', (req, res) => { 
+  res.render('contactme', { title: "Contact Me!"}); 
+}); 
 
 app.get('/dashboard', (req, res) => {
   res.render('dashboard', { title: "Dashboard", username: "J.F. Kadir "});
