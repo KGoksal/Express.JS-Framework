@@ -17,13 +17,14 @@ To run this application, make sure you have Node.js and npm installed.
 
 ```
 npm install
+
 ```
 
-	## 3.	Start the server:
+## 3.	Start the server:
 ```
 node app.js
 ```
-	## 4.	Open your browser and navigate to:
+## 4.	Open your browser and navigate to:
 
 http://localhost:3000
 
@@ -34,5 +35,5 @@ Make sure you have placed the .ejs files inside the /views directory for them to
 
 Dependencies
 
-	- express: The web framework used to build the application.
-	- ejs: The template engine for rendering dynamic views.
+- express: The web framework used to build the application.
+- ejs: The template engine for rendering dynamic views.
