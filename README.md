@@ -3,9 +3,11 @@
 This is a simple Express app I built to demonstrate how to use EJS (Embedded JavaScript) templates, as well as handle URL and query parameters. It’s a great starting point for learning how to build dynamic web pages!
 
 
+This website is a simple Express application that demonstrates how to use EJS (Embedded JavaScript) templates to render dynamic HTML content. It allows users to interact with various routes, including a homepage, user-specific pages with dynamic parameters, and a contact page. The app also showcases how URL parameters and query parameters can be handled to display personalized content. It’s a great starting point for understanding how to build and manage dynamic web pages with Express and EJS.
+
 <img width="345" alt="Screenshot 2024-11-16 at 10 12 22 AM" src="https://github.com/user-attachments/assets/37ede8db-35e4-4408-a566-afdc1720e1fb">
 
-
+Once you log in with your information, the website greets you with a personalized welcome page. This page dynamically displays a welcome message, using your details such as your username, to make the experience more personal. It’s a great way to interact with the app and see how user-specific data can be displayed after authentication.
 
 <img width="371" alt="Screenshot 2024-11-16 at 10 12 46 AM" src="https://github.com/user-attachments/assets/95392df9-b6df-49f3-a0ef-ab71ead4e737">
 
