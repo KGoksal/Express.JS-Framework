@@ -1,7 +1,12 @@
 # My EJS App
 
 This is a simple Express app I built to demonstrate how to use EJS (Embedded JavaScript) templates, as well as handle URL and query parameters. It’s a great starting point for learning how to build dynamic web pages!
+
+
 <img width="345" alt="Screenshot 2024-11-16 at 10 12 22 AM" src="https://github.com/user-attachments/assets/37ede8db-35e4-4408-a566-afdc1720e1fb">
+
+
+
 <img width="371" alt="Screenshot 2024-11-16 at 10 12 46 AM" src="https://github.com/user-attachments/assets/95392df9-b6df-49f3-a0ef-ab71ead4e737">
 
 ## Features
