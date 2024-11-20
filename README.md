@@ -6,7 +6,6 @@ This website is a simple Express application that demonstrates how to use EJS (E
 
 <img width="249" alt="Screenshot 2024-11-16 at 10 19 41 AM" src="https://github.com/user-attachments/assets/b9360f0a-f338-41b1-a4f9-52a07cb8e8dc">
 
-
 Once you log in with your information, the website greets you with a personalized welcome page. This page dynamically displays a welcome message, using your details such as your username, to make the experience more personal. It’s a great way to interact with the app and see how user-specific data can be displayed after authentication.
 
 <img width="371" alt="Screenshot 2024-11-16 at 10 12 46 AM" src="https://github.com/user-attachments/assets/95392df9-b6df-49f3-a0ef-ab71ead4e737">
