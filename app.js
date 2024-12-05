@@ -3,13 +3,13 @@ const express = require('express');
 const app = express(); 
 const port = 3000; 
 app.set('view engine', 'ejs'); // Set the view engine to EJS
- 
+  
 // Basic route for the homepage that renders an EJS template 
 app.get('/', (req, res) => { 
   res.render('index', { title: "My EJS App!!"});
-}); 
+});
 
-// Route with URL parameters that captures and displays the ID parameter
+// Route with URL parameters that captures and displays the ID parameter 
 app.get('/user/:id', (req, res) => {
   const param = req.params.id;
   res.send(`The parameter of ID is: ${param}`);
