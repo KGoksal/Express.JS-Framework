@@ -27,13 +27,13 @@ Once you’ve got that set up, here’s how to get started:
 
 ### 2. Install the necessary dependencies by running this command in your project directory:
 
-```
-npm install
-```
+``` 
+npm install 
+``` 
 
-### 3. Start the server:
+### 3. Start the server: 
 
-node app.js
+node app.js 
 
 ### 4. Open your browser and go to:
 
